@@ -9,7 +9,9 @@ import pandas as pd
 import numpy as np
 
 """a module to read and create datasets representing pictures and 
-logic values"""
+logic values
+The files 'mnist_train.csv' and 'mnist_test.csv' can be downloaded 'https://pjreddie.com/projects/mnist-in-csv/'.
+"""
 
 
 def load_MNIST_data_wrapper():
