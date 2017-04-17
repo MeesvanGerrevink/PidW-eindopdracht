@@ -18,8 +18,8 @@ class Network:
     the network make a prediction and the function 'train' can be
     called on a data set which should be a list of tuples of samples
     and labels. If a test data set, of similar structure to the training
-    data set, is included when calling 'training' the instance variable
-    self.progress can be called.""" 
+    data set, is included when calling 'train' the instance variable
+    'self.progress' can be called after training.""" 
     
     def __init__(self, sizes):
         """Initialize a random neural network with len(size) layers,
